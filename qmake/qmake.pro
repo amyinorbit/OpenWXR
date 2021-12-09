@@ -110,6 +110,7 @@ macx {
 	QMAKE_LINK = $$QMAKE_CC
 	QMAKE_CFLAGS += -mmacosx-version-min=10.9
 	QMAKE_LFLAGS += -mmacosx-version-min=10.9
+    QMAKE_APPLE_DEVICE_ARCHS = x86_64
 
 	DEFINES += APL=1 IBM=0 LIN=0
 	TARGET = mac.xpl
